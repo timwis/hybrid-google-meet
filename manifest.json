@@ -1,0 +1,12 @@
+{
+  "name": "Hybrid Google Meet",
+  "version": "0.1.0",
+  "description": "Join Google Meet meetings with audio and microphone disabled to use chat and hand raising in a hybrid environment without fear of the feedback screech sound.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
