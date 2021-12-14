@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./img/icon512.png" alt="Two people sitting at a table next to a television screen with a third person on it">
+</p>
+
 # Hybrid Google Meet
 
 Join Google Meet meetings with the sound and microphone muted so you can use chat and hand raising in-person to create a more equitable experience for those joining virtually.
@@ -13,3 +17,5 @@ The challenge with this approach — which this extension aims to address — 
 
 ## What this extension does
 This browser extension adds a 'Join hybrid' button to Google Meet. When you click it, it keeps your sound and microphone muted and joins the meeting, so you can still use the hand raise and chat feature without creating a screeching feedback sound. You can go back to normal by refreshing the page and clicking the regular 'Join' button.
+
+![Screenshot showing a Join hybrid button on the Google Meet interface](./img/screenshot.png)

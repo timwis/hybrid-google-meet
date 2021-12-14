@@ -1,10 +1,11 @@
 {
   "name": "Hybrid Google Meet",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Join Google Meet meetings with the sound and microphone muted so you can use chat and hand raising in-person to create a more equitable experience for those joining virtually.",
   "author": "Tim Wisniewski",
   "homepage_url": "https://github.com/timwis/hybrid-google-meet",
   "manifest_version": 3,
+  "icons": { "100": "icon100.png" },
   "content_scripts": [
     {
       "matches": ["https://meet.google.com/*"],
