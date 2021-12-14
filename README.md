@@ -1,6 +1,6 @@
 # Hybrid Google Meet
 
-Join Google Meet meetings with audio and microphone disabled to use chat and hand raising in a hybrid environment without fear of the feedback screech sound.
+Join Google Meet meetings with the sound and microphone muted so you can use chat and hand raising in-person to create a more equitable experience for those joining virtually.
 
 ## Hybrid meetings
 Hybrid meetings are when some participants are together in person, and others have joined virtually. They're challenging for several reasons, but a key one is that the circumstances inevitably favour the people who are together in person: they can hear one another better, conversation flows more naturally, side conversations can happen, and interjecting can feel more natural without the audio delay.
