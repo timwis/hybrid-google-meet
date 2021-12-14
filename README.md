@@ -1,9 +1,6 @@
-<p align="center">
-  <img src="./img/icon512.png" alt="Two people sitting at a table next to a television screen with a third person on it">
-</p>
-
 # Hybrid Google Meet
 
+<img src="./img/icon512.png" width="150" align="left" alt="Two people sitting at a table next to a television screen with a third person on it">
 Join Google Meet meetings with the sound and microphone muted so you can use chat and hand raising in-person to create a more equitable experience for those joining virtually.
 
 ## Hybrid meetings
