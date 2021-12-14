@@ -12,11 +12,10 @@ window.onload = function () {
 
   if (loadingIndicator) {
     const loadingObserver = new MutationObserver(function (mutationList, observer) {
-      if (!getElementByXPath(queries.loadingIndicator)) {
-        // Wait for animation to finish
-        setTimeout(() => {
-          addJoinHybridBtn()
-        }, 500)
+      // Imperfect method of determining when DOM patching is finished
+      const joinBtn = getElementByXPath(queries.joinBtn)
+      if (isVisible(joinBtn)) {
+        setTimeout(addJoinHybridBtn, 500) // Wait for animation to finish
         observer.disconnect()
       }
     })
@@ -75,4 +74,8 @@ function addJoinHybridBtn () {
 
 function getElementByXPath(xpath, context=document) {
   return document.evaluate(xpath, context, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue
+}
+
+function isVisible (el) {
+  return el && el.clientWidth > 0
 }
